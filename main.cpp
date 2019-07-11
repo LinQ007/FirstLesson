@@ -4,7 +4,7 @@ int main()
 {
 	cout<<"Example text"<<endl;
 	cout<<"First change"<<endl;
-	cout<"ERROR"<<endl;
+	cout<<"TEST TEST TEST"<<endl;
 	return 0;
 }
 
