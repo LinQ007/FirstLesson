@@ -7,6 +7,8 @@ int main()
 	cout<<"Revert"<<endl;
 	cout<<"Come back to master"<<endl;
 	cout<<"test"<<endl;
+
+	cout<<"Add CI"<<endl;
 	return 0;
 }
 
