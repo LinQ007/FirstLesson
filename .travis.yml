@@ -8,9 +8,7 @@ addons:
                 packages:
                         - g++-7
 script:
-        - CXX=/usr/bin/g++-7 C=/usr/bin/gcc-7 cmake .
-        - cmake --build . -- -j2
-
+        - g++ main.cpp -o main -Wall -Wextra -Werror -Wpedantic -o2 --std=c++17
 after_success:
         - echo "success"
 
