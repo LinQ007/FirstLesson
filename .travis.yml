@@ -8,7 +8,7 @@ addons:
                 packages:
                         - g++-7
 script:
-        - g++ main.cpp -o main -Wall -Wextra -Werror -Wpedantic -o2 --std=c++17
+        - g++ main.cpp -o main -Wall -Wextra -Werror -Wpedantic -o2 
 after_success:
         - echo "success"
 
